@@ -2,7 +2,7 @@ import os
 import csv
 
 #define path to data input file
-csvpath ='/Users/amyclaman/Downloads/election_data.csv'
+csvpath = os.path.join('Resources', 'election_data.csv')
 
 #define variables
 row_count = 0
